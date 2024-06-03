@@ -1,12 +1,43 @@
-## Hi there 👋
+# Rudi - Rennes Urban Data Interface 
 
-<!--
+![Screely Editor (15)](https://github.com/Rudi-pages-WIP/.github/assets/14858948/73cd3e3b-4c1a-4f5d-8a0c-41d32f8f453d)
 
-**Here are some ideas to get you started:**
+Rudi, ou Rennes Urban Data Interface, est une plateforme open-source d'innovation collaborative dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://blog.rudi.bzh/) 🚀
+
+## Repositories
+
+- [Rudi Portal](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
+- [Rudi Producer Node](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données, regroupant toutes les fonctionnalités liées à la publication de données.
+- [Rudi Documentation](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : La documentation complète de Rudi ainsi que le logiciel qui permet de la propulser, comprenant les guides d'utilisation, les tutoriels, les spécifications techniques et les bonnes pratiques.
+
+## Installation
+
+Pour installer Rudi, veuillez vous référer au [guide d'installation](INSTALL.md).
+
+## Feuille de route
+
+Découvrez notre [feuille de route](https://github.com/orgs/Rudi-pages-WIP/projects/1) pour avoir un aperçu des fonctionnalités à venir et des améliorations prévues pour Rudi.
+
+## Contribuer à Rudi
+
+Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
+
+- Signaler un bug ou proposer une nouvelle fonctionnalité: section issues de chaque répositoire
+- [Participer aux discussions de la communauté]([https://github.com/rudi-project/rudi-portal/discussions](https://github.com/orgs/Rudi-pages-WIP/discussions))
+- [Poser des questions et obtenir de l'aide](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
+
+Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
+
+## Licence
+
+Rudi est un projet open-source sous licence [EUPL 1.2](LICENCE.md).
+
+## Contact
+
+Pour toute question, suggestion ou collaboration, n'hésitez pas à nous contacter à l'adresse [contact@rudi.bzh](mailto:contact@rudi.bzh).
+
+Suivez-nous sur [LinkedIn](https://www.linkedin.com/company/portail-rudi/about/) pour les dernières actualités et mises à jour du projet.
+
+Rejoignez-nous dans cette aventure passionnante vers une gestion plus intelligente, collaborative et responsable des données territoriales avec Rudi !
