@@ -26,7 +26,7 @@ Les comportements suivants sont attendus et demandés à tous les participants d
 L'équipe produit est responsable de clarifier les normes de comportement acceptables et d'appliquer ce code de conduite de manière cohérente et objective. Les membres de l'équipe produit ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires, commits, code, modifications de documentation, issues et autres contributions qui ne respectent pas ce code de conduite.
 
 ## Application
-Les instances de comportement inacceptable peuvent être signalées en contactant l'équipe du projet à produit@rudi.bzh. Tous les signalements seront examinés et étudiés, et se traduiront par une réponse jugée nécessaire et appropriée aux circonstances. L'équipe du projet est obligée de maintenir la confidentialité des rapports de l'incident. Les contributeurs peuvent s'attendre à une réponse initiale dans un délai raisonnable, précisant les étapes suivantes.
+Les instances de comportement inacceptable peuvent être signalées en contactant l'équipe du projet à produit@rudi.bzh. Tous les signalements seront examinés et se traduiront par une réponse jugée nécessaire et appropriée aux circonstances. L'équipe produit s'engage à maintenir la confidentialité des rapports d'incident.
 
 ## Attribution
 Ce code de conduite est inspiré du [Contributor Covenant](https://www.contributor-covenant.org/).
