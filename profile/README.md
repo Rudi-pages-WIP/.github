@@ -1,16 +1,16 @@
-# Rudi - Rennes Urban Data Interface 
-
 ![Screely Editor (15)](https://github.com/Rudi-pages-WIP/.github/assets/14858948/73cd3e3b-4c1a-4f5d-8a0c-41d32f8f453d)
 
-Rudi, ou Rennes Urban Data Interface, est une plateforme open-source d'innovation collaborative dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation.
+# Rudi - Rennes Urban Data Interface 
 
-🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://blog.rudi.bzh/) 🚀
+Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation.
+
+🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://rudi.bzh/) 🚀
 
 ## Repositories
 
-- [Rudi Portal](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
-- [Rudi Producer Node](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données, regroupant toutes les fonctionnalités liées à la publication de données.
-- [Rudi Documentation](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : La documentation complète de Rudi ainsi que le logiciel qui permet de la propulser, comprenant les guides d'utilisation, les tutoriels, les spécifications techniques et les bonnes pratiques.
+- [Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
+- [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données, regroupant toutes les fonctionnalités liées à la publication de données.
+- [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : La documentation complète de Rudi ainsi que le logiciel qui permet de la propulser, comprenant les guides d'utilisation, les tutoriels, les spécifications techniques et les bonnes pratiques.
 
 ## Installation
 
@@ -34,9 +34,15 @@ Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTI
 
 Rudi est un projet open-source sous licence [EUPL 1.2](LICENCE.md).
 
-## Contact
+## Liens utiles et contact
 
-Pour toute question, suggestion ou collaboration, n'hésitez pas à nous contacter à l'adresse [contact@rudi.bzh](mailto:contact@rudi.bzh).
+Pour toute question, suggestion ou autre, voici quelques liens utiles:
+- Feuille de route
+- Propositions d'idées
+- Reporting de problèmes
+- Autres discussions
+
+Pour contacter les créeateurs du projet chez Rennes Métropole, n'hésitez pas à nous contacter à l'adresse [contact@rudi.bzh](mailto:contact@rudi.bzh).
 
 Suivez-nous sur [LinkedIn](https://www.linkedin.com/company/portail-rudi/about/) pour les dernières actualités et mises à jour du projet.
 
