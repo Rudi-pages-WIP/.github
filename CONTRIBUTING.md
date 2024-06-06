@@ -76,9 +76,69 @@ include Setup of env, IDE and typical getting started instructions?
 -->
 ### Guides de style
 #### Messages de commit
-<!-- TODO
 
--->
+Chaque message de commit doit être structuré de la manière suivante :
+
+1. **Ligne d'en-tête** : Une ligne résumant les changements (50 caractères maximum).
+2. **Ligne vide** : Une ligne vide pour séparer l'en-tête du corps.
+3. **Corps du message** : Description détaillée des changements (72 caractères par ligne maximum).
+4. **Pied de page** : Informations supplémentaires comme les numéros d'issue, les remerciements, etc.
+
+##### Ligne d'en-tête
+
+- Utilisez l'impératif présent : "Ajoute", "Corrige", "Supprime", etc.
+- Soyez bref et précis (50 caractères maximum).
+- Utilisez une majuscule au début de la phrase.
+- Ne terminez pas par un point.
+
+###### Exemples
+
+- `Ajoute la fonctionnalité de connexion`
+- `Corrige le bug de l'affichage des images`
+- `Supprime les fichiers obsolètes`
+
+##### Corps du message
+
+- Fournissez un contexte sur la raison du changement.
+- Expliquez ce qui a été changé et pourquoi.
+- Utilisez des phrases complètes.
+- Limitez chaque ligne à 72 caractères pour une meilleure lisibilité.
+- Séparez les différents points avec des lignes vides pour plus de clarté.
+
+###### Exemples
+
+```
+Ajoute la fonctionnalité de connexion
+
+Cette fonctionnalité permet aux utilisateurs de se connecter à leur
+compte en utilisant leur adresse email et leur mot de passe. Elle
+inclut la vérification des informations d'identification et la gestion
+des sessions utilisateur.
+
+- Ajoute la page de connexion
+- Implémente la logique de vérification des identifiants
+- Ajoute les tests unitaires pour la connexion
+
+Issue: #123
+```
+
+##### Pied de page
+
+- Utilisez le pied de page pour référencer les issues liées.
+- Mentionnez les personnes ou les équipes qui ont contribué ou aidé, si nécessaire.
+- Utilisez les préfixes `Issue:` ou `Fixes:` pour indiquer les issues associées.
+
+###### Exemples
+
+- `Issue: #123`
+- `Fixes: #456`
+- `Merci à @nom_utilisateur pour l'aide sur ce commit`
+
+##### Bonnes pratiques
+
+- **Commits atomiques** : Faites des commits petits et spécifiques à une seule fonctionnalité ou correction de bug.
+- **Messages significatifs** : Évitez les messages vagues comme "Mise à jour" ou "Correction de bug". Soyez précis sur ce qui a été fait.
+- **Consistance** : Maintenez une structure et un style cohérents pour tous les messages de commit.
 
 ## Contributions non-techniques
 
