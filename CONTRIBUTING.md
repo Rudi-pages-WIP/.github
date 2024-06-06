@@ -12,14 +12,16 @@ Tous types de contributions sont encouragés et valorisés. Consultez la [Table 
 ## Liens externes et internes utiles
 
 - [J'ai une question](#jai-une-question)
-- [Je veux contribuer](#je-veux-contribuer)
-- [Signalement de bugs](#signaler-des-bugs)
-- [Propositions d'améliorations](#propositions-daméliorations)
-- [Votre première contribution de code](#votre-première-contribution-de-code)
-- [Amélioration de la documentation](#amélioration-de-la-documentation)
-- [Traductions](#traductions)
-- [Guides de style](#guides-de-style)
-- [Messages de commit](#messages-de-commit)
+- [Contributions techniques](#contributions-techniques)
+  - [Signalement de bugs](#signaler-des-bugs)
+  - [Guides de style](#guides-de-style)
+  - [Messages de commit](#messages-de-commit)
+- [Contributions non-techniques](#contributions-non-techniques)
+  - [Propositions d'améliorations](#propositions-daméliorations)
+  - [Votre première contribution de code](#votre-première-contribution-de-code)
+  - [Amélioration de la documentation](#amélioration-de-la-documentation)
+  - [Traductions](#traductions)
+
 
 ## J'ai une question
 
