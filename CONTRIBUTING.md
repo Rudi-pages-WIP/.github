@@ -9,17 +9,17 @@ Tous types de contributions sont encouragés et valorisés. Consultez la [Table 
 > - Parlez de RUDI autour de vous
 > - Mentionnez le projet dans le readme de votre projet
 
-## Table des matières
+## Liens externes et internes utiles
 
 - [J'ai une question](#jai-une-question)
 - [Je veux contribuer](#je-veux-contribuer)
-- [Signalement de bogues](#signalement-de-bogues)
+- [Signalement de bugs](#signaler-des-bugs)
 - [Propositions d'améliorations](#propositions-daméliorations)
 - [Votre première contribution de code](#votre-première-contribution-de-code)
 - [Amélioration de la documentation](#amélioration-de-la-documentation)
+- [Traductions](#traductions)
 - [Guides de style](#guides-de-style)
 - [Messages de commit](#messages-de-commit)
-- [Rejoindre l'équipe du projet](#rejoindre-léquipe-du-projet)
 
 ## J'ai une question
 
@@ -31,6 +31,8 @@ Si vous avez toujours besoin de poser une question et d'obtenir des éclaircisse
 - Ouvrez une [discussion dans la section Questions et Réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses).
 - Fournissez autant de contexte que possible sur ce que vous rencontrez.
 - Fournissez les versions du projet et de la plateforme (nodejs, npm, etc.), en fonction de ce qui semble pertinent.
+
+## Contributions techniques
 
 ### Signaler des bugs
 
@@ -65,9 +67,22 @@ Une fois que c'est déposé :
 - Un membre de l'équipe essaiera de reproduire le problème avec les étapes que vous avez fournies. S'il n'y a pas d'étapes de reproduction ou pas de moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera l'issue comme `needs-repro`. Les bugs avec l'étiquette `needs-repro` ne seront pas traités tant qu'ils ne sont pas reproduits.
 - Si l'équipe est capable de reproduire le problème, il sera marqué `needs-fix`, ainsi que possiblement d'autres étiquettes (comme `critical`), et l'issue sera laissée pour être [implémentée par quelqu'un](#votre-première-contribution-de-code).
 
+### Votre première contribution de code
+<!-- TODO
+include Setup of env, IDE and typical getting started instructions?
+
+-->
+### Guides de style
+#### Messages de commit
+<!-- TODO
+
+-->
+
+## Contributions non-techniques
+
 ### Suggérer des améliorations
 
-Cette section vous guide à travers la soumission d'une suggestion d'amélioration pour Rudi, **y compris des fonctionnalités complètement nouvelles et des améliorations mineures des fonctionnalités existantes**. Suivre ces directives aidera l'équipe produit à mieux comprendre votre suggestion et à trouver des suggestions connexes.
+Cette section vous guide à travers la soumission d'une suggestion d'amélioration pour RUDI, **y compris des fonctionnalités complètement nouvelles et des améliorations mineures des fonctionnalités existantes**. Suivre ces directives aidera l'équipe produit à mieux comprendre votre suggestion et à trouver des suggestions connexes.
 
 #### Avant de soumettre une amélioration
 
@@ -84,13 +99,7 @@ Les suggestions d'amélioration sont suivies sous forme de [template d'idée](ht
 - Fournissez une **description étape par étape de l'amélioration suggérée** avec autant de détails que possible.
 - **Décrivez le comportement actuel** et **expliquez le comportement que vous vous attendiez à voir à la place** et pourquoi. À ce stade, vous pouvez également indiquer quelles alternatives ne fonctionnent pas pour vous.
 - Vous pouvez **inclure des captures d'écran et des GIFs animés** qui vous aident à démontrer les étapes ou à indiquer la partie à laquelle la suggestion est liée. Vous pouvez utiliser [cet outil](https://www.cockos.com/licecap/) pour enregistrer des GIFs sur macOS et Windows, et [cet outil](https://github.com/colinkeenan/silentcast) ou [cet outil](https://github.com/GNOME/byzanz) sur Linux.
-- **Expliquez pourquoi cette amélioration serait utile** à la plupart des utilisateurs de Rudi. Vous pouvez également souligner d'autres projets qui l'ont mieux résolu et qui pourraient servir d'inspiration.
-
-### Votre première contribution de code
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
-
--->
+- **Expliquez pourquoi cette amélioration serait utile** à la plupart des utilisateurs de RUDI. Vous pouvez également souligner d'autres projets qui l'ont mieux résolu et qui pourraient servir d'inspiration.
 
 ### Améliorer la documentation
 <!-- TODO
@@ -98,12 +107,7 @@ Updating, improving and correcting the documentation
 
 -->
 
-## Guides de style
-### Messages de commit
-<!-- TODO
+### Traduire RUDI
 
--->
 
-## Rejoindre l'équipe du projet
-<!-- TODO -->
 
