@@ -1,6 +1,6 @@
 ![Medium Banner US Landscape](https://github.com/Rudi-pages-WIP/.github/assets/14858948/6b0df183-cca6-4898-8a11-41a26b6ca202)
 
-Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation.
+Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation. 
 
 🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://rudi.bzh/) 🚀
 
@@ -9,6 +9,12 @@ Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à
 - [Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
 - [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données, regroupant toutes les fonctionnalités liées à la publication de données.
 - [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : La documentation complète de Rudi ainsi que le logiciel qui permet de la propulser, comprenant les guides d'utilisation, les tutoriels, les spécifications techniques et les bonnes pratiques.
+
+## Documentation
+
+Pour apprendre à utiliser Rudi et tous ces composants, nous vous invitons à vous référer à la [documentation](https://doc.rudi.bzh). On vous invite aussi à visioner cette courte vidéo de présentation de l'outil:
+[![VIDEO SUR RUDI](https://img.youtube.com/vi/xBfXa8Lsz5M?si=4dFa0YwWOOLiIkl8/0.jpg)](https://youtu.be/xBfXa8Lsz5M?si=4dFa0YwWOOLiIkl8)
+
 
 ## Installation
 
