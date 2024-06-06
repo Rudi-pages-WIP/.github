@@ -12,9 +12,7 @@ Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à
 
 ## Documentation
 
-Pour apprendre à utiliser Rudi et tous ces composants, nous vous invitons à vous référer à la [documentation](https://doc.rudi.bzh). On vous invite aussi à visioner cette courte vidéo de présentation de l'outil:
-[![VIDEO SUR RUDI](https://img.youtube.com/vi/xBfXa8Lsz5M?si=4dFa0YwWOOLiIkl8/0.jpg)](https://youtu.be/xBfXa8Lsz5M?si=4dFa0YwWOOLiIkl8)
-
+Pour apprendre à utiliser Rudi et tous ces composants, nous vous invitons à vous référer à la [documentation](https://doc.rudi.bzh). 
 
 ## Installation
 
