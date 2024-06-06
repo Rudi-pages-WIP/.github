@@ -1,4 +1,4 @@
-![image](https://github.com/Rudi-pages-WIP/.github/assets/14858948/4d9e6101-e842-4a72-9b85-982e272622cd)
+![Medium Banner US Landscape](https://github.com/Rudi-pages-WIP/.github/assets/14858948/6b0df183-cca6-4898-8a11-41a26b6ca202)
 
 Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation.
 
