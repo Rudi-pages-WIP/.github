@@ -32,13 +32,7 @@ Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTI
 
 Rudi est un projet open-source sous licence [EUPL 1.2](LICENCE.md).
 
-## Liens utiles et contact
-
-Pour toute question, suggestion ou autre, voici quelques liens utiles:
-- Feuille de route
-- Propositions d'idées
-- Reporting de problèmes
-- Autres discussions
+## Contacts
 
 Pour contacter les créeateurs du projet chez Rennes Métropole, n'hésitez pas à nous contacter à l'adresse [contact@rudi.bzh](mailto:contact@rudi.bzh).
 
