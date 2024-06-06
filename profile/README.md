@@ -12,7 +12,7 @@ Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à
 
 ## Installation
 
-Pour installer Rudi, veuillez vous référer au [guide d'installation](INSTALL.md).
+Pour installer Rudi, veuillez vous référer au [guide d'installation du Portail Rudi](https://github.com/Rudi-pages-WIP/Rudi-Portal/blob/main/INSTALL.md) et au [guide d'installation du nœud producteur](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/blob/main/INSTALL.md).
 
 ## Feuille de route
 
