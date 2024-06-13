@@ -130,8 +130,6 @@ Pour partager les détails sur vos déploiements de RUDI, rendez-vous dans la se
 
 ### 6. Feedback utilisateur
 
-#### Comment faire ?
-
 Pour partager votre feedback utilisateur, rendez-vous dans la section "[Discussions](https://github.com/orgs/Rudi-pages-WIP/discussions)" sur GitHub sous la catégorie "[Feedback utilisateur](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/feedback-utilisateur)". Partagez vos retours d'expérience sur les différentes fonctionnalités de RUDI.
 
 #### Précautions à prendre
@@ -196,142 +194,164 @@ En suivant ces recommandations et en participant activement aux discussions, vou
 ## Pour les développeurs des collectivités ou des intégrateurs
 
 ### 1. Soutien aux nouveaux développeurs
-- **Comment faire ?** : Répondez aux questions des nouveaux contributeurs dans la section "Discussions" ou aidez-les à soumettre leurs premières pull requests.
+
+#### Comment faire ?
+
+Répondez aux questions des nouveaux contributeurs dans la section "Discussions" sur GitHub ou aidez-les à soumettre leurs premières pull requests.
+
+#### Conseils et bonnes pratiques
+
+- **Accueillez chaleureusement** : Présentez-vous et soyez accueillant dans vos réponses pour mettre les nouveaux contributeurs à l’aise.
+- **Guides étape par étape** : Proposez des tutoriels ou guides étape par étape pour aider les développeurs débutants à comprendre le workflow.
+- **Patience et encouragement** : Soyez patient et encourageant, surtout si le nouveau contributeur fait des erreurs. Corrigez-les avec bienveillance.
+
+#### Exemple de message d'aide
+
+```
+Bonjour [Nom du contributeur],
+
+Bienvenue et merci de vouloir contribuer à RUDI ! Pour soumettre votre première pull request, suivez ces étapes :
+
+1. Forker le dépôt principal.
+2. Clonez votre fork localement.
+3. Créez une nouvelle branche pour vos modifications.
+4. Faites les modifications nécessaires.
+5. Commitez et pushez vos changements.
+6. Créez une pull request depuis votre fork.
+
+N'hésitez pas à poser des questions si vous rencontrez des difficultés. Bonne chance !
+```
 
 ### 2. Optimisation des performances
-- **Comment faire ?** : Identifiez les parties du code nécessitant des optimisations. Soumettez vos améliorations via des pull requests avec des benchmarks pour démontrer les gains de performance.
+
+#### Comment faire ?
+
+Identifiez les parties du code nécessitant des optimisations. Soumettez vos améliorations via des pull requests avec des benchmarks pour démontrer les gains de performance.
+
+#### Conseils et bonnes pratiques
+
+- **Profilage** : Utilisez des outils de profilage pour identifier les goulots d’étranglement dans le code.
+- **Mesure des performances** : Avant et après vos modifications, mesurez les performances pour fournir des benchmarks clairs.
+- **Documentation des changements** : Décrivez précisément les changements et les résultats observés dans la description de la pull request.
+
+#### Exemple de description de pull request
+
+```
+### Description
+Optimisation de l'algorithme de recherche.
+
+### Changements
+- Réécriture de l’algorithme de recherche pour améliorer la vitesse.
+- Ajout de caches pour les résultats de la recherche.
+
+### Benchmarks
+- Avant optimisation : 200ms par recherche.
+- Après optimisation : 80ms par recherche.
+
+Issue: #789
+```
 
 ### 3. Tests unitaires et automatisation
-- **Comment faire ?** : Écrivez des tests unitaires et des scripts d'automatisation. Assurez-vous d’inclure des instructions claires sur leur exécution et intégration continue. Soumettez vos modifications via une pull request.
+
+#### Comment faire ?
+
+Écrivez des tests unitaires et des scripts d'automatisation pour améliorer la couverture de tests. Soumettez vos modifications via une pull request.
+
+#### Conseils et bonnes pratiques
+
+- **Tests unitaires** : Ciblez des fonctions ou modules spécifiques.
+- **Tests d'intégration** : Assurez-vous que les différents composants fonctionnent bien ensemble.
+- **Automatisation** : Utilisez des outils de CI/CD pour exécuter automatiquement les tests.
+- **Documentation** : Incluez des instructions claires sur la manière de lancer les tests et intégrations.
+
+#### Exemple de description de pull request
+
+```
+### Description
+Ajout de tests unitaires pour le module de gestion des utilisateurs.
+
+### Changements
+- Création de tests unitaires pour les fonctions d'ajout et suppression d'utilisateurs.
+- Ajout de tests d'intégration pour vérifier la cohésion entre les modules.
+
+### Instructions
+Pour exécuter les tests :
+1. Clonez le dépôt.
+2. Naviguez vers le répertoire du projet.
+3. Exécutez `npm test`.
+
+Issue: #456
+```
 
 ### 4. Documentation technique
-- **Comment faire ?** : Améliorez ou ajoutez de la documentation technique sur les APIs, les workflows de développement et les manuels d'installation. Soumettez vos contributions via une pull request.
+
+#### Comment faire ?
+
+Améliorez ou ajoutez de la documentation technique sur les APIs, les workflows de développement et les manuels d'installation. Soumettez vos contributions via une pull request.
+
+#### Conseils et bonnes pratiques
+
+- **Clarté** : Utilisez un langage simple et clair, sans jargon technique inutile.
+- **Exemples concrets** : Ajoutez des exemples d’utilisation et des cas pratiques.
+- **Organisez la documentation** : Utilisez des titres et sous-titres pour structurer l'information.
+
+#### Exemple de description de pull request
+
+```
+### Description
+Ajout de la documentation pour l'API de gestion des utilisateurs.
+
+### Changements
+- Documente les endpoints de création, modification et suppression des utilisateurs.
+- Ajout d’exemples JSON pour les requêtes et réponses de l'API.
+
+Issue: #321
+```
 
 ### 5. Revues de code
-- **Comment faire ?** : Participez aux revues de code des pull requests soumises par d'autres développeurs. Fournissez des commentaires constructifs et vérifiez la conformité avec les standards du projet.
 
-### 6. Développement de nouvelles fonctionnalités
-- **Comment faire ?** : Proposez des nouvelles fonctionnalités en ouvrant une issue pour discussion. Ensuite, développez la fonctionnalité et soumettez-la via une pull request.
+#### Comment faire ?
 
-### 7. Correction de bugs
-- **Comment faire ?** : Consultez les issues ouvertes pour identifier les bugs à corriger. Soumettez vos corrections via une pull request, en expliquant clairement les modifications apportées.
+Participez aux revues de code des pull requests soumises par d'autres développeurs. Fournissez des commentaires constructifs et vérifiez la conformité avec les standards du projet.
 
-### 8. Remonter des bugs
-#### Avant de soumettre un rapport de bug
+#### Conseils et bonnes pratiques
 
-Un bon rapport de bug ne doit pas laisser les autres vous courir après pour plus d'informations. Par conséquent, nous vous demandons d'enquêter soigneusement, de recueillir des informations et de décrire le problème en détail dans votre rapport. Veuillez compléter les étapes suivantes à l'avance pour nous aider à corriger tout bug potentiel le plus rapidement possible.
+- **Commentaires constructifs** : Fournissez des suggestions et critiques de manière respectueuse.
+- **Focus sur la qualité** : Vérifiez que le code est bien structuré, efficace et conforme aux normes de style.
+- **Tests et documentation** : Assurez-vous que le code est accompagné de tests et de documentation appropriés.
 
-- Assurez-vous d'utiliser la dernière version.
-- Déterminez si votre bug est vraiment un bug et non une erreur de votre côté, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous cherchez de l'aide, vous pouvez consulter [cette section](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)).
-- Pour voir si d'autres utilisateurs ont rencontré (et éventuellement déjà résolu) le même problème que vous rencontrez, vérifiez s'il n'y a pas déjà un rapport de bug existant pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug).
-- Collectez des informations sur le bug :
-  - Stack trace
-  - OS, Plateforme et Version (Windows, Linux, macOS, x86, ARM)
-  - Version de l'interpréteur, du compilateur, du SDK, de l'environnement d'exécution, du gestionnaire de packages, selon ce qui semble pertinent.
-  - Éventuellement votre entrée et la sortie
-  - Pouvez-vous reproduire de manière fiable le problème ? Et pouvez-vous aussi le reproduire avec des versions plus anciennes ?
+#### Exemple de commentaire de revue de code
 
-#### Comment soumettre un bon rapport de bug ?
+```
+Bonjour [Nom du contributeur],
 
-> Vous ne devez jamais signaler de problèmes liés à la sécurité, de vulnérabilités ou de bugs contenant des informations sensibles sur le bug tracker ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés par email à produit@rudi.bzh.
+Merci pour cette pull request. Voici quelques suggestions pour améliorer davantage votre code :
+1. Remplacez les boucles `for` par des fonctions de haute performance pour un meilleur rendement.
+2. Ajoutez un test unitaire pour vérifier le fonctionnement de la nouvelle méthode.
+3. Ajoutez des commentaires pour expliquer les sections de code complexes.
 
-Nous utilisons les issues GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
+Bien à toi,
+[Votre Nom]
+```
 
-- Ouvrez une [Issue](/issues/new). (Puisque nous ne pouvons pas être sûrs à ce stade s'il s'agit d'un bug ou non, nous vous demandons de ne pas encore parler de bug et de ne pas étiqueter l'issue.)
-- Expliquez le comportement que vous attendiez et le comportement réel.
-- Veuillez fournir autant de contexte que possible et décrire les *étapes de reproduction* que quelqu'un d'autre peut suivre pour recréer le problème par lui-même. Cela inclut généralement votre code. Pour de bons rapports de bug, vous devez isoler le problème et créer un cas de test réduit.
-- Fournissez les informations que vous avez collectées dans la section précédente.
+En suivant ces instructions, vous pouvez contribuer de manière significative au projet RUDI et aider les nouveaux développeurs à s'intégrer facilement.
 
-Une fois que c'est déposé :
+### 6. Développement de nouvelles fonctionnalités ou correction de bugs
 
-- L'équipe du projet étiquettera l'issue en conséquence.
-- Un membre de l'équipe essaiera de reproduire le problème avec les étapes que vous avez fournies. S'il n'y a pas d'étapes de reproduction ou pas de moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera l'issue comme `needs-repro`. Les bugs avec l'étiquette `needs-repro` ne seront pas traités tant qu'ils ne sont pas reproduits.
-- Si l'équipe est capable de reproduire le problème, il sera marqué `needs-fix`, ainsi que possiblement d'autres étiquettes (comme `critical`), et l'issue sera laissée pour être [implémentée par quelqu'un](#votre-première-contribution-de-code).
+#### Comment faire ?
 
-## Pour les Designers des Collectivités ou des Intégrateurs
+1. **Proposer une fonctionnalité ou une correction** :
+   - Ouvrez une issue sur GitHub pour discuter de votre proposition. Décrivez clairement la nouvelle fonctionnalité ou le bug à corriger.
+   
+2. **Développer et soumettre** :
+   - Développez la fonctionnalité ou apportez la correction dans votre branche locale.
+   - Soumettez une pull request (PR) et liez-la à l'issue ouverte pour discussion.
 
-### 1. Faire des maquettes pour les propositions de fonctionnalités
-- **Comment faire ?** : Utilisez des outils comme Figma ou Penpot pour créer des maquettes des nouvelles fonctionnalités. Partagez ces maquettes dans une issue ou une discussion pour recueillir des avis.
-
-### 2. User Research
-- **Comment faire ?** : Menez des enquêtes ou des tests utilisateurs pour collecter des données. Partagez vos résultats et recommandations dans une discussion dédiée à la "Recherche utilisateur".
-
-### 3. Partager des ressources de design
-- **Comment faire ?** : Créez des versions de l'interface de RUDI sur des plateformes comme Figma ou Penpot. Partagez ces ressources avec la communauté dans la section "Design" des discussions.
-
-En suivant ces contraintes et directives spécifiques selon votre rôle, vous contribuerez efficacement et de manière significative au projet RUDI. Merci de faire partie de cette communauté !
-
-
-
-## Liens externes et internes utiles
-
-- [J'ai une question](#jai-une-question)
-- [Contributions techniques](#contributions-techniques)
-  - [Signalement de bugs](#signaler-des-bugs)
-  - [Guides de style](#guides-de-style)
-  - [Messages de commit](#messages-de-commit)
-- [Contributions non-techniques](#contributions-non-techniques)
-  - [Propositions d'améliorations](#propositions-daméliorations)
-  - [Votre première contribution de code](#votre-première-contribution-de-code)
-  - [Amélioration de la documentation](#amélioration-de-la-documentation)
-  - [Traductions](#traductions)
-
-
-## J'ai une question
-
-> Si vous avez une question, nous supposons que vous avez lu la [section dédiée](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses).
-
-Avant de poser une question, il est préférable de rechercher des [questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses) existantes qui pourraient vous aider. Si vous avez trouvé une question liée mais vous avez encore besoin de clarification, vous pouvez poser votre question dans les commentaires de la discussion. 
-
-Si vous avez toujours besoin de poser une question et d'obtenir des éclaircissements, nous vous recommandons ce qui suit :
-- Ouvrez une [discussion dans la section Questions et Réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses).
-- Fournissez autant de contexte que possible sur ce que vous rencontrez.
-- Fournissez les versions du projet et de la plateforme (nodejs, npm, etc.), en fonction de ce qui semble pertinent.
-
-## Contributions techniques
-
-### Signaler des bugs
-
-#### Avant de soumettre un rapport de bug
-
-Un bon rapport de bug ne doit pas laisser les autres vous courir après pour plus d'informations. Par conséquent, nous vous demandons d'enquêter soigneusement, de recueillir des informations et de décrire le problème en détail dans votre rapport. Veuillez compléter les étapes suivantes à l'avance pour nous aider à corriger tout bug potentiel le plus rapidement possible.
-
-- Assurez-vous d'utiliser la dernière version.
-- Déterminez si votre bug est vraiment un bug et non une erreur de votre côté, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous cherchez de l'aide, vous pouvez consulter [cette section](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)).
-- Pour voir si d'autres utilisateurs ont rencontré (et éventuellement déjà résolu) le même problème que vous rencontrez, vérifiez s'il n'y a pas déjà un rapport de bug existant pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug).
-- Collectez des informations sur le bug :
-  - Stack trace
-  - OS, Plateforme et Version (Windows, Linux, macOS, x86, ARM)
-  - Version de l'interpréteur, du compilateur, du SDK, de l'environnement d'exécution, du gestionnaire de packages, selon ce qui semble pertinent.
-  - Éventuellement votre entrée et la sortie
-  - Pouvez-vous reproduire de manière fiable le problème ? Et pouvez-vous aussi le reproduire avec des versions plus anciennes ?
-
-#### Comment soumettre un bon rapport de bug ?
-
-> Vous ne devez jamais signaler de problèmes liés à la sécurité, de vulnérabilités ou de bugs contenant des informations sensibles sur le bug tracker ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés par email à produit@rudi.bzh.
-
-Nous utilisons les issues GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
-
-- Ouvrez une [Issue](/issues/new). (Puisque nous ne pouvons pas être sûrs à ce stade s'il s'agit d'un bug ou non, nous vous demandons de ne pas encore parler de bug et de ne pas étiqueter l'issue.)
-- Expliquez le comportement que vous attendiez et le comportement réel.
-- Veuillez fournir autant de contexte que possible et décrire les *étapes de reproduction* que quelqu'un d'autre peut suivre pour recréer le problème par lui-même. Cela inclut généralement votre code. Pour de bons rapports de bug, vous devez isoler le problème et créer un cas de test réduit.
-- Fournissez les informations que vous avez collectées dans la section précédente.
-
-Une fois que c'est déposé :
-
-- L'équipe du projet étiquettera l'issue en conséquence.
-- Un membre de l'équipe essaiera de reproduire le problème avec les étapes que vous avez fournies. S'il n'y a pas d'étapes de reproduction ou pas de moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera l'issue comme `needs-repro`. Les bugs avec l'étiquette `needs-repro` ne seront pas traités tant qu'ils ne sont pas reproduits.
-- Si l'équipe est capable de reproduire le problème, il sera marqué `needs-fix`, ainsi que possiblement d'autres étiquettes (comme `critical`), et l'issue sera laissée pour être [implémentée par quelqu'un](#votre-première-contribution-de-code).
-
-### Votre première contribution de code
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
-
--->
-### Guides de style
 #### Messages de commit
 
-Chaque message de commit doit être structuré de la manière suivante :
+Chaque message de commit doit être structuré de manière claire et cohérente pour faciliter la revue de code et l'historique des modifications.
+
+##### Structure du message de commit
 
 1. **Ligne d'en-tête** : Une ligne résumant les changements (50 caractères maximum).
 2. **Ligne vide** : Une ligne vide pour séparer l'en-tête du corps.
@@ -393,6 +413,52 @@ Issue: #123
 - **Commits atomiques** : Faites des commits petits et spécifiques à une seule fonctionnalité ou correction de bug.
 - **Messages significatifs** : Évitez les messages vagues comme "Mise à jour" ou "Correction de bug". Soyez précis sur ce qui a été fait.
 - **Consistance** : Maintenez une structure et un style cohérents pour tous les messages de commit.
+
+### 7. Remonter des bugs
+Un bon rapport de bug ne doit pas laisser les autres vous courir après pour plus d'informations. Par conséquent, nous vous demandons d'enquêter soigneusement, de recueillir des informations et de décrire le problème en détail dans votre rapport. Veuillez compléter les étapes suivantes à l'avance pour nous aider à corriger tout bug potentiel le plus rapidement possible.
+
+- Assurez-vous d'utiliser la dernière version.
+- Déterminez si votre bug est vraiment un bug et non une erreur de votre côté, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous cherchez de l'aide, vous pouvez consulter [cette section](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)).
+- Pour voir si d'autres utilisateurs ont rencontré (et éventuellement déjà résolu) le même problème que vous rencontrez, vérifiez s'il n'y a pas déjà un rapport de bug existant pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug).
+- Collectez des informations sur le bug :
+  - Stack trace
+  - OS, Plateforme et Version (Windows, Linux, macOS, x86, ARM)
+  - Version de l'interpréteur, du compilateur, du SDK, de l'environnement d'exécution, du gestionnaire de packages, selon ce qui semble pertinent.
+  - Éventuellement votre entrée et la sortie
+  - Pouvez-vous reproduire de manière fiable le problème ? Et pouvez-vous aussi le reproduire avec des versions plus anciennes ?
+
+#### Comment soumettre un bon rapport de bug ?
+
+> Vous ne devez jamais signaler de problèmes liés à la sécurité, de vulnérabilités ou de bugs contenant des informations sensibles sur le bug tracker ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés par email à produit@rudi.bzh.
+
+Nous utilisons les issues GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
+
+- Ouvrez une [Issue](/issues/new). (Puisque nous ne pouvons pas être sûrs à ce stade s'il s'agit d'un bug ou non, nous vous demandons de ne pas encore parler de bug et de ne pas étiqueter l'issue.)
+- Expliquez le comportement que vous attendiez et le comportement réel.
+- Veuillez fournir autant de contexte que possible et décrire les *étapes de reproduction* que quelqu'un d'autre peut suivre pour recréer le problème par lui-même. Cela inclut généralement votre code. Pour de bons rapports de bug, vous devez isoler le problème et créer un cas de test réduit.
+- Fournissez les informations que vous avez collectées dans la section précédente.
+
+Une fois que c'est déposé :
+
+- L'équipe du projet étiquettera l'issue en conséquence.
+- Un membre de l'équipe essaiera de reproduire le problème avec les étapes que vous avez fournies. S'il n'y a pas d'étapes de reproduction ou pas de moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera l'issue comme `needs-repro`. Les bugs avec l'étiquette `needs-repro` ne seront pas traités tant qu'ils ne sont pas reproduits.
+- Si l'équipe est capable de reproduire le problème, il sera marqué `needs-fix`, ainsi que possiblement d'autres étiquettes (comme `critical`), et l'issue sera laissée pour être [implémentée par quelqu'un](#votre-première-contribution-de-code).
+
+## Pour les Designers des Collectivités ou des Intégrateurs
+
+### 1. Faire des maquettes pour les propositions de fonctionnalités
+- **Comment faire ?** : Utilisez des outils comme Figma ou Penpot pour créer des maquettes des nouvelles fonctionnalités. Partagez ces maquettes dans une issue ou une discussion pour recueillir des avis.
+
+### 2. User Research
+- **Comment faire ?** : Menez des enquêtes ou des tests utilisateurs pour collecter des données. Partagez vos résultats et recommandations dans une discussion dédiée à la "Recherche utilisateur".
+
+### 3. Partager des ressources de design
+- **Comment faire ?** : Créez des versions de l'interface de RUDI sur des plateformes comme Figma ou Penpot. Partagez ces ressources avec la communauté dans la section "Design" des discussions.
+
+En suivant ces contraintes et directives spécifiques selon votre rôle, vous contribuerez efficacement et de manière significative au projet RUDI. Merci de faire partie de cette communauté !
+
+
+### Guides de style
 
 ## Contributions non-techniques
 
