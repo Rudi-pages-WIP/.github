@@ -194,9 +194,6 @@ En suivant ces recommandations et en participant activement aux discussions, vou
 ## Pour les développeurs des collectivités ou des intégrateurs
 
 ### 1. Soutien aux nouveaux développeurs
-
-#### Comment faire ?
-
 Répondez aux questions des nouveaux contributeurs dans la section "Discussions" sur GitHub ou aidez-les à soumettre leurs premières pull requests.
 
 #### Conseils et bonnes pratiques
@@ -205,27 +202,7 @@ Répondez aux questions des nouveaux contributeurs dans la section "Discussions"
 - **Guides étape par étape** : Proposez des tutoriels ou guides étape par étape pour aider les développeurs débutants à comprendre le workflow.
 - **Patience et encouragement** : Soyez patient et encourageant, surtout si le nouveau contributeur fait des erreurs. Corrigez-les avec bienveillance.
 
-#### Exemple de message d'aide
-
-```
-Bonjour [Nom du contributeur],
-
-Bienvenue et merci de vouloir contribuer à RUDI ! Pour soumettre votre première pull request, suivez ces étapes :
-
-1. Forker le dépôt principal.
-2. Clonez votre fork localement.
-3. Créez une nouvelle branche pour vos modifications.
-4. Faites les modifications nécessaires.
-5. Commitez et pushez vos changements.
-6. Créez une pull request depuis votre fork.
-
-N'hésitez pas à poser des questions si vous rencontrez des difficultés. Bonne chance !
-```
-
 ### 2. Optimisation des performances
-
-#### Comment faire ?
-
 Identifiez les parties du code nécessitant des optimisations. Soumettez vos améliorations via des pull requests avec des benchmarks pour démontrer les gains de performance.
 
 #### Conseils et bonnes pratiques
@@ -284,9 +261,6 @@ Issue: #456
 ```
 
 ### 4. Documentation technique
-
-#### Comment faire ?
-
 Améliorez ou ajoutez de la documentation technique sur les APIs, les workflows de développement et les manuels d'installation. Soumettez vos contributions via une pull request.
 
 #### Conseils et bonnes pratiques
@@ -295,23 +269,7 @@ Améliorez ou ajoutez de la documentation technique sur les APIs, les workflows 
 - **Exemples concrets** : Ajoutez des exemples d’utilisation et des cas pratiques.
 - **Organisez la documentation** : Utilisez des titres et sous-titres pour structurer l'information.
 
-#### Exemple de description de pull request
-
-```
-### Description
-Ajout de la documentation pour l'API de gestion des utilisateurs.
-
-### Changements
-- Documente les endpoints de création, modification et suppression des utilisateurs.
-- Ajout d’exemples JSON pour les requêtes et réponses de l'API.
-
-Issue: #321
-```
-
 ### 5. Revues de code
-
-#### Comment faire ?
-
 Participez aux revues de code des pull requests soumises par d'autres développeurs. Fournissez des commentaires constructifs et vérifiez la conformité avec les standards du projet.
 
 #### Conseils et bonnes pratiques
@@ -320,25 +278,7 @@ Participez aux revues de code des pull requests soumises par d'autres développe
 - **Focus sur la qualité** : Vérifiez que le code est bien structuré, efficace et conforme aux normes de style.
 - **Tests et documentation** : Assurez-vous que le code est accompagné de tests et de documentation appropriés.
 
-#### Exemple de commentaire de revue de code
-
-```
-Bonjour [Nom du contributeur],
-
-Merci pour cette pull request. Voici quelques suggestions pour améliorer davantage votre code :
-1. Remplacez les boucles `for` par des fonctions de haute performance pour un meilleur rendement.
-2. Ajoutez un test unitaire pour vérifier le fonctionnement de la nouvelle méthode.
-3. Ajoutez des commentaires pour expliquer les sections de code complexes.
-
-Bien à toi,
-[Votre Nom]
-```
-
-En suivant ces instructions, vous pouvez contribuer de manière significative au projet RUDI et aider les nouveaux développeurs à s'intégrer facilement.
-
 ### 6. Développement de nouvelles fonctionnalités ou correction de bugs
-
-#### Comment faire ?
 
 1. **Proposer une fonctionnalité ou une correction** :
    - Ouvrez une issue sur GitHub pour discuter de votre proposition. Décrivez clairement la nouvelle fonctionnalité ou le bug à corriger.
@@ -447,49 +387,14 @@ Une fois que c'est déposé :
 ## Pour les Designers des Collectivités ou des Intégrateurs
 
 ### 1. Faire des maquettes pour les propositions de fonctionnalités
-- **Comment faire ?** : Utilisez des outils comme Figma ou Penpot pour créer des maquettes des nouvelles fonctionnalités. Partagez ces maquettes dans une issue ou une discussion pour recueillir des avis.
+Utilisez des outils de design tels que Figma ou Penpot pour créer des maquettes des nouvelles fonctionnalités que vous proposez. Partagez ensuite ces maquettes dans une issue ou une discussion sur GitHub pour recueillir des avis et des commentaires de la communauté.
 
 ### 2. User Research
-- **Comment faire ?** : Menez des enquêtes ou des tests utilisateurs pour collecter des données. Partagez vos résultats et recommandations dans une discussion dédiée à la "Recherche utilisateur".
+Menez des enquêtes ou des tests utilisateurs pour collecter des données sur l'utilisation de RUDI. Partagez ensuite vos résultats et recommandations dans une discussion dédiée à la "Recherche utilisateur" sur GitHub.
 
 ### 3. Partager des ressources de design
-- **Comment faire ?** : Créez des versions de l'interface de RUDI sur des plateformes comme Figma ou Penpot. Partagez ces ressources avec la communauté dans la section "Design" des discussions.
+Créez des versions de l'interface de RUDI sur des plateformes comme Figma ou Penpot. Partagez ces ressources avec la communauté dans la section "Design" des discussions sur GitHub.
+
+--- 
 
 En suivant ces contraintes et directives spécifiques selon votre rôle, vous contribuerez efficacement et de manière significative au projet RUDI. Merci de faire partie de cette communauté !
-
-
-### Guides de style
-
-## Contributions non-techniques
-
-### Suggérer des améliorations
-
-Cette section vous guide à travers la soumission d'une suggestion d'amélioration pour RUDI, **y compris des fonctionnalités complètement nouvelles et des améliorations mineures des fonctionnalités existantes**. Suivre ces directives aidera l'équipe produit à mieux comprendre votre suggestion et à trouver des suggestions connexes.
-
-#### Avant de soumettre une amélioration
-
-- Assurez-vous d'utiliser la dernière version.
-- Lisez attentivement la [documentation]() et découvrez si la fonctionnalité n'est pas déjà couverte, peut-être par une configuration individuelle.
-- Effectuez une [recherche](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es) pour voir si l'amélioration n'a pas déjà été suggérée. Si c'est le cas, ajoutez un commentaire à l'issue existante au lieu d'en ouvrir une nouvelle.
-- Déterminez si votre idée correspond à la portée et aux objectifs du projet. Il vous appartient de convaincre les développeurs du projet des mérites de cette fonctionnalité. Gardez à l'esprit que nous voulons des fonctionnalités utiles à la majorité de nos utilisateurs et non seulement à une petite partie. Si vous ciblez juste une minorité d'utilisateurs, envisagez d'écrire une bibliothèque complémentaire/plugin.
-
-#### Comment soumettre une bonne suggestion d'amélioration ?
-
-Les suggestions d'amélioration sont suivies sous forme de [template d'idée](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es).
-
-- Utilisez un **titre clair et descriptif** pour l'issue afin d'identifier la suggestion.
-- Fournissez une **description étape par étape de l'amélioration suggérée** avec autant de détails que possible.
-- **Décrivez le comportement actuel** et **expliquez le comportement que vous vous attendiez à voir à la place** et pourquoi. À ce stade, vous pouvez également indiquer quelles alternatives ne fonctionnent pas pour vous.
-- Vous pouvez **inclure des captures d'écran et des GIFs animés** qui vous aident à démontrer les étapes ou à indiquer la partie à laquelle la suggestion est liée. Vous pouvez utiliser [cet outil](https://www.cockos.com/licecap/) pour enregistrer des GIFs sur macOS et Windows, et [cet outil](https://github.com/colinkeenan/silentcast) ou [cet outil](https://github.com/GNOME/byzanz) sur Linux.
-- **Expliquez pourquoi cette amélioration serait utile** à la plupart des utilisateurs de RUDI. Vous pouvez également souligner d'autres projets qui l'ont mieux résolu et qui pourraient servir d'inspiration.
-
-### Améliorer la documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
-
-### Traduire RUDI
-
-
-
