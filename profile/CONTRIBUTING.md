@@ -132,7 +132,7 @@ Pour partager les détails sur vos déploiements de RUDI, rendez-vous dans la se
 
 #### Comment faire ?
 
-Pour partager votre feedback utilisateur, rendez-vous dans la section "Discussions" sur GitHub sous la catégorie "Feedback utilisateur". Partagez vos retours d'expérience sur les différentes fonctionnalités de RUDI.
+Pour partager votre feedback utilisateur, rendez-vous dans la section "[Discussions](https://github.com/orgs/Rudi-pages-WIP/discussions)" sur GitHub sous la catégorie "[Feedback utilisateur](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/feedback-utilisateur)". Partagez vos retours d'expérience sur les différentes fonctionnalités de RUDI.
 
 #### Précautions à prendre
 
@@ -193,7 +193,7 @@ En suivant ces recommandations et en participant activement aux discussions, vou
 ### 7. Soutien aux nouvelles collectivités
 À travers les différents cannaux de discussions, proposez votre aide aux nouvelles collectivités pour les guider dans l'utilisation et le déploiement de RUDI.
 
-## Pour les Développeurs des Collectivités ou des Intégrateurs
+## Pour les développeurs des collectivités ou des intégrateurs
 
 ### 1. Soutien aux nouveaux développeurs
 - **Comment faire ?** : Répondez aux questions des nouveaux contributeurs dans la section "Discussions" ou aidez-les à soumettre leurs premières pull requests.
@@ -217,7 +217,36 @@ En suivant ces recommandations et en participant activement aux discussions, vou
 - **Comment faire ?** : Consultez les issues ouvertes pour identifier les bugs à corriger. Soumettez vos corrections via une pull request, en expliquant clairement les modifications apportées.
 
 ### 8. Remonter des bugs
-- **Comment faire ?** : Si vous identifiez un bug, ouvrez une issue. Fournissez une description complète, les étapes pour reproduire le bug, et l’environnement dans lequel il se produit.
+#### Avant de soumettre un rapport de bug
+
+Un bon rapport de bug ne doit pas laisser les autres vous courir après pour plus d'informations. Par conséquent, nous vous demandons d'enquêter soigneusement, de recueillir des informations et de décrire le problème en détail dans votre rapport. Veuillez compléter les étapes suivantes à l'avance pour nous aider à corriger tout bug potentiel le plus rapidement possible.
+
+- Assurez-vous d'utiliser la dernière version.
+- Déterminez si votre bug est vraiment un bug et non une erreur de votre côté, par exemple en utilisant des composants/versions d'environnement incompatibles (Assurez-vous d'avoir lu la [documentation](). Si vous cherchez de l'aide, vous pouvez consulter [cette section](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)).
+- Pour voir si d'autres utilisateurs ont rencontré (et éventuellement déjà résolu) le même problème que vous rencontrez, vérifiez s'il n'y a pas déjà un rapport de bug existant pour votre bug ou erreur dans le [bug tracker](issues?q=label%3Abug).
+- Collectez des informations sur le bug :
+  - Stack trace
+  - OS, Plateforme et Version (Windows, Linux, macOS, x86, ARM)
+  - Version de l'interpréteur, du compilateur, du SDK, de l'environnement d'exécution, du gestionnaire de packages, selon ce qui semble pertinent.
+  - Éventuellement votre entrée et la sortie
+  - Pouvez-vous reproduire de manière fiable le problème ? Et pouvez-vous aussi le reproduire avec des versions plus anciennes ?
+
+#### Comment soumettre un bon rapport de bug ?
+
+> Vous ne devez jamais signaler de problèmes liés à la sécurité, de vulnérabilités ou de bugs contenant des informations sensibles sur le bug tracker ou ailleurs en public. Au lieu de cela, les bugs sensibles doivent être envoyés par email à produit@rudi.bzh.
+
+Nous utilisons les issues GitHub pour suivre les bugs et les erreurs. Si vous rencontrez un problème avec le projet :
+
+- Ouvrez une [Issue](/issues/new). (Puisque nous ne pouvons pas être sûrs à ce stade s'il s'agit d'un bug ou non, nous vous demandons de ne pas encore parler de bug et de ne pas étiqueter l'issue.)
+- Expliquez le comportement que vous attendiez et le comportement réel.
+- Veuillez fournir autant de contexte que possible et décrire les *étapes de reproduction* que quelqu'un d'autre peut suivre pour recréer le problème par lui-même. Cela inclut généralement votre code. Pour de bons rapports de bug, vous devez isoler le problème et créer un cas de test réduit.
+- Fournissez les informations que vous avez collectées dans la section précédente.
+
+Une fois que c'est déposé :
+
+- L'équipe du projet étiquettera l'issue en conséquence.
+- Un membre de l'équipe essaiera de reproduire le problème avec les étapes que vous avez fournies. S'il n'y a pas d'étapes de reproduction ou pas de moyen évident de reproduire le problème, l'équipe vous demandera ces étapes et marquera l'issue comme `needs-repro`. Les bugs avec l'étiquette `needs-repro` ne seront pas traités tant qu'ils ne sont pas reproduits.
+- Si l'équipe est capable de reproduire le problème, il sera marqué `needs-fix`, ainsi que possiblement d'autres étiquettes (comme `critical`), et l'issue sera laissée pour être [implémentée par quelqu'un](#votre-première-contribution-de-code).
 
 ## Pour les Designers des Collectivités ou des Intégrateurs
 
