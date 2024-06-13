@@ -7,8 +7,8 @@ Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à
 ## Repositories
 
 - [Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
-- [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données, regroupant toutes les fonctionnalités liées à la publication de données.
-- [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : La documentation complète de Rudi ainsi que le logiciel qui permet de la propulser, comprenant les guides d'utilisation, les tutoriels, les spécifications techniques et les bonnes pratiques.
+- [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données.
+- [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : L'application de la documentation de Rudi comprenant les guides d'utilisation, un glossaire, des tutoriels, les spécifications techniques et les bonnes pratiques.
 
 ## Documentation
 
@@ -16,7 +16,7 @@ Pour apprendre à utiliser Rudi et tous ces composants, nous vous invitons à vo
 
 ## Installation
 
-Pour installer Rudi, veuillez vous référer au [guide d'installation du Portail Rudi](https://github.com/Rudi-pages-WIP/Rudi-Portal/blob/main/INSTALL.md) et au [guide d'installation du nœud producteur](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/blob/main/INSTALL.md).
+Pour installer Rudi, veuillez vous référer au [guide d'installation du Portail Rudi](https://github.com/Rudi-pages-WIP/Rudi-Portal/blob/main/INSTALL.md) et au [guide d'installation du Nœud Producteur](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/blob/main/INSTALL.md).
 
 ## Feuille de route
 
@@ -27,7 +27,7 @@ Découvrez notre [feuille de route](https://github.com/orgs/Rudi-pages-WIP/proje
 Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
 
 - Signaler un bug ou proposer une nouvelle fonctionnalité: section issues de chaque répositoire
-- [Participer aux discussions de la communauté]([https://github.com/orgs/Rudi-pages-WIP/discussions]
+- [Participer aux discussions de la communauté](https://github.com/orgs/Rudi-pages-WIP/discussions)
 - [Poser des questions et obtenir de l'aide](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
 
 Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
