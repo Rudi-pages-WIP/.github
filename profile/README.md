@@ -45,9 +45,10 @@ Découvrez notre [feuille de route](https://github.com/orgs/Rudi-pages-WIP/proje
 
 Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
 
-- Signaler un bug ou proposer une nouvelle fonctionnalité: section issues de chaque répositoire
+- [Signaler un bug ou proposer une nouvelle fonctionnalité](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/issues)
+- Résoudre des budgs (rdv sur la page issues) et développer de nouvelles fonctionnalités (quand l'équipe produit accepte votre proposition, vous pouvez aussi la développer et soumettre une PR)
 - [Participer aux discussions de la communauté](https://github.com/orgs/Rudi-pages-WIP/discussions)
-- [Poser des questions et obtenir de l'aide](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
+- [Poser des questions et répondre aux questions des autres](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
 
 Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
 
