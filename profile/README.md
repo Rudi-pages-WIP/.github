@@ -31,11 +31,7 @@ L'application dédiée aux producteurs de données leur permet de :
 - **Fixer les conditions d’accès** : Définir des conditions spécifiques pour l'accès aux données.
 - **Publier les métadonnées sur le portail** : Rendre les métadonnées accessibles via le portail principal.
 
-> **Note**: Pour des guides d'utilisation détaillés, des tutoriels, un glossaire, des spécifications techniques et des bonnes pratiques, consultez notre [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation).
-
-## Documentation
-
-Pour apprendre à utiliser Rudi et tous ces composants, nous vous invitons à vous référer à la [documentation](https://doc.rudi.bzh). 
+> **Note**: Pour des guides d'utilisation détaillés, des tutoriels, un glossaire, des spécifications techniques et des bonnes pratiques, consultez notre [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation). Vous pouvez aussi retrouver la documentation déjà hébergée via ce [lien](https://doc.rudi.bzh).
 
 ## Installation
 
