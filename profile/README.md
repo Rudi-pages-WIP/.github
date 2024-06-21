@@ -1,14 +1,37 @@
 ![Medium Banner US Landscape](https://github.com/Rudi-pages-WIP/.github/assets/14858948/6b0df183-cca6-4898-8a11-41a26b6ca202)
 
-Rudi, ou Rennes Urban Data Interface, est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Elle offre aux acteurs du territoire une manière simple et efficace de partager leurs données tout en gardant la maîtrise totale sur leur utilisation. 
+RUDI (Rennes Urban Data Interface) est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Conçue pour les acteurs du territoire, elle offre une manière simple, sécurisée et efficace de partager des données tout en gardant une maîtrise totale sur leur utilisation.
+
+### Objectifs de RUDI
+
+- **Faciliter le partage de données** : Permet aux acteurs locaux de partager facilement et en toute sécurité leurs données.
+- **Maîtrise des données** : Assure que les utilisateurs gardent un contrôle total sur l'utilisation de leurs données.
+- **Accès centralisé** : Propose un point d'accès unique à une multitude de données du territoire.
+- **Services numériques améliorés** : Favorise la création et l'amélioration de services numériques basés sur une gestion responsable et éthique des données.
 
 🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://rudi.bzh/) 🚀
 
 ## Repositories
 
-- [Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal) : Le portail principal de Rudi, une application web permettant aux utilisateurs de consulter le catalogue des jeux de données, gérer leurs projets et formuler des demandes d'accès spécifiques.
-- [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node) : L'application dédiée aux producteurs de données.
-- [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation) : L'application de la documentation de Rudi comprenant les guides d'utilisation, un glossaire, des tutoriels, les spécifications techniques et les bonnes pratiques.
+### [Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal)
+
+Le portail principal de RUDI est une application web permettant aux utilisateurs de :
+
+- **Explorer le catalogue** : Accéder à une vaste collection de jeux de données.
+- **Publier et consulter les réutilisations** : Partager et examiner comment les données sont réutilisées.
+- **Formuler des demandes d'accès spécifiques** : Faire des demandes d'accès à des données non ouvertes.
+- **Fonctionnalités self-data** : Offrir des outils et fonctionnalités permettant aux utilisateurs de gérer directement leurs données personnelles.
+
+### [Rudi Producer Node 🔨](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node)
+
+L'application dédiée aux producteurs de données leur permet de :
+
+- **Décrire leurs jeux de données** : Fournir des descriptions détaillées pour chaque ensemble de données.
+- **Stocker les jeux de données** : Si besoin, permettre le stockage des jeux de données.
+- **Fixer les conditions d’accès** : Définir des conditions spécifiques pour l'accès aux données.
+- **Publier les métadonnées sur le portail** : Rendre les métadonnées accessibles via le portail principal.
+
+> **Note**: Pour des guides d'utilisation détaillés, des tutoriels, un glossaire, des spécifications techniques et des bonnes pratiques, consultez notre [Rudi Documentation 📑](https://github.com/Rudi-pages-WIP/Rudi-Documentation).
 
 ## Documentation
 
