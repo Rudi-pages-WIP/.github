@@ -50,7 +50,7 @@ Nous accueillons et encourageons les contributions de la communauté. Voici comm
 - [Participer aux discussions de la communauté](https://github.com/orgs/Rudi-pages-WIP/discussions)
 - [Poser des questions et répondre aux questions des autres](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
 
-Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
+Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite]([CODE_OF_CONDUCT.md](https://github.com/Rudi-pages-WIP/.github/blob/main/CODE_OF_CONDUCT.md)).
 
 ## Licence
 
