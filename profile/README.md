@@ -1,15 +1,79 @@
-![Medium Banner US Landscape](https://github.com/Rudi-pages-WIP/.github/assets/14858948/6b0df183-cca6-4898-8a11-41a26b6ca202)
+<br>
+<p align="center">
+  <a href="https://rudi.rennesmetropole.fr/">
+  <img src="https://blog.rudi.bzh/wp-content/uploads/2020/11/logo_bleu_orange.svg" width=100px alt="Rudi logo" />  </a>
+</p>
 
-RUDI (Rennes Urban Data Interface) est une plateforme open-source dédiée à la gestion, au partage et à l'exploitation des données à l'échelle locale. Conçue pour les acteurs du territoire, elle offre une manière simple, sécurisée et efficace de partager des données tout en gardant une maîtrise totale sur leur utilisation.
+<h2 align="center" >Plateforme de partage de données à l'échelle locale</h3>
+<p align="center">Open source, sécurisée, conçue pour les données ouvertes et à accès restreint.</p>
 
-### Objectifs de RUDI
+<p align="center"><a href="https://rudi.rennesmetropole.fr/">🌐 Instance de Rennes Métropole</a> · <a href="doc.rudi.bzh">📚 Documentation</a> ·  <a href="https://blog.rudi.bzh/">📰 Blog</a><p>
+<div align="center">
+  <a href="https://indd.adobe.com/view/publication/a4f45cc2-760c-4cad-a6e8-139236ace5c0/n7s8/publication-web-resources/pdf/expo_rudi_web.pdf" 
+     aria-label="Cliquez pour voir la publication complète en PDF"
+     title="Publication PDF">
+    <img 
+      src="https://github.com/user-attachments/assets/7a967526-9fcb-4bf7-8ead-b1b5b7494d7b" 
+      alt="Aperçu de la publication montrant la mise en page du document" 
+      width="800"
+    />
+  </a>
+</div>
+<div align="center">
+  <sub>
+    <i>Cliquez sur l'image ci-dessus pour consulter le document PDF complet (s'ouvre dans un nouvel onglet)</i>
+  </sub>
+</div>
 
-- **Faciliter le partage de données** : Permet aux acteurs locaux de partager facilement et en toute sécurité leurs données.
-- **Maîtrise des données** : Assure que les utilisateurs gardent un contrôle total sur l'utilisation de leurs données.
-- **Accès centralisé** : Propose un point d'accès unique à une multitude de données du territoire.
-- **Services numériques améliorés** : Favorise la création et l'amélioration de services numériques basés sur une gestion responsable et éthique des données.
+<br>
 
-🚀 [Découvrez Rudi en action sur la plateforme de Rennes Métropole](https://rudi.bzh/) 🚀
+
+Nous voulons permettre aux acteurs locaux de partager facilement et en toute sécurité leurs données tout en en gardant la maîtrise et d’accéder en un même point à de nombreuses données du territoire, pour permettre la création et l’amélioration de services numériques basés sur une gestion responsable et éthique des données.
+
+<br>
+
+
+## Essayer Rudi 
+Vous pouvez voir à quoi ressemble une plateforme de Rudi sur la plateforme de <a href="https://rudi.rennesmetropole.fr/">Rennes Métropole</a>
+
+Vous pouvez aussi 🖥️ [lancer Rudi en local](https://github.com/rudi-platform/rudi-out-of-the-box)  
+
+<br>
+
+## Pourquoi choisir Rudi ?
+
+Nous savons qu'il y a beaucoup de logiciels de gestion de données. Alors pourquoi Rudi ?
+
+#### 🔒 Pour les producteurs de données
+*Partager leurs données en toute sécurité et en garder la maîtrise*
+
+- Chaque producteur dispose d'un espace (nœud producteur) pour publier ses données dans le catalogue Rudi
+- Rudi est une fédération décentralisée : les données restent chez chaque producteur
+- Les « données en accès restreint » sont accessibles selon des conditions définies par le producteur
+- Pour y accéder, un réutilisateur doit :
+  - Décrire son projet dans Rudi
+  - Envoyer une demande au producteur qui peut l'accepter ou la refuser
+
+#### 📊 Pour les réutilisateurs de données
+*Accéder facilement aux données du territoire pour créer des services*
+
+- Un accès facilité à la donnée territoriale via un méta-catalogue
+- Description des données (métadonnées) accessible à tous dans un catalogue central
+
+#### 🎨 Pour les habitants et usagers
+*Bénéficier de services numériques basés sur une gestion responsable et éthique des données*
+
+- Fonctionnalités pour connaître et agir sur ses données personnelles détenues par les producteurs
+- Système de consentement pour autoriser l'utilisation des données par un tiers
+- Bénéfices :
+  - Création de services personnalisés
+  - Réalisation d'études et analyses plus précises
+  - Alimentation d'observatoires
+
+<br>
+
+
+<br>
 
 ## Repositories
 
