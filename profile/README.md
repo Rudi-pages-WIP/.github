@@ -36,7 +36,16 @@ Nous voulons permettre aux acteurs locaux de partager facilement et en toute sé
 ## Essayer Rudi 
 Vous pouvez voir à quoi ressemble une plateforme de Rudi sur la plateforme de <a href="https://rudi.rennesmetropole.fr/">Rennes Métropole</a>
 
-Vous pouvez aussi 🖥️ [lancer Rudi en local](https://github.com/rudi-platform/rudi-out-of-the-box)  
+Vous pouvez aussi lancer Rudi en local en 4 commandes :
+
+```
+git clone https://github.com/rudi-plateform/rudi-oob.git
+cd rudi-oob
+git lfs pull
+docker compose -f .\docker-compose-magnolia.yml -f .\docker-compose-rudi.yml -f .\docker-compose-dataverse.yml -f .\docker-compose-network.yml --profile "*" up -d
+```
+
+[En savoir plus sur Rudi Out of the Box](https://github.com/rudi-platform/rudi-out-of-the-box)
 
 <br>
 
